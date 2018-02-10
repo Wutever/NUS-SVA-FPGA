@@ -1,0 +1,516 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/ --output-directory=C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/ --report-file=bsf:C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys.qsys
+Progress: Loading DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys.qsys
+Progress: Reading input file
+Progress: Adding clock_crossing_io [altera_avalon_mm_clock_crossing_bridge 12.0]
+Progress: Parameterizing module clock_crossing_io
+Progress: Adding cpu [altera_nios2_qsys 12.0]
+Progress: Parameterizing module cpu
+Progress: Adding tri_state_bridge_flash_bridge_0 [altera_tristate_conduit_bridge 12.0]
+Progress: Parameterizing module tri_state_bridge_flash_bridge_0
+Progress: Adding tri_state_flash_bridge_pinSharer_0 [altera_tristate_conduit_pin_sharer 12.0]
+Progress: Parameterizing module tri_state_flash_bridge_pinSharer_0
+Progress: Adding cfi_flash [altera_generic_tristate_controller 12.0]
+Progress: Parameterizing module cfi_flash
+Progress: Adding c0 [altera_clock_bridge 12.0]
+Progress: Parameterizing module c0
+Progress: Adding c2 [altera_clock_bridge 12.0]
+Progress: Parameterizing module c2
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 12.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding key [altera_avalon_pio 12.0]
+Progress: Parameterizing module key
+Progress: Adding lcd [altera_avalon_lcd_16207 12.0]
+Progress: Parameterizing module lcd
+Progress: Adding sd_clk [altera_avalon_pio 12.0]
+Progress: Parameterizing module sd_clk
+Progress: Adding sd_cmd [altera_avalon_pio 12.0]
+Progress: Parameterizing module sd_cmd
+Progress: Adding sd_dat [altera_avalon_pio 12.0]
+Progress: Parameterizing module sd_dat
+Progress: Adding sd_wp_n [altera_avalon_pio 12.0]
+Progress: Parameterizing module sd_wp_n
+Progress: Adding epp_i2c_scl [altera_avalon_pio 12.0]
+Progress: Parameterizing module epp_i2c_scl
+Progress: Adding epp_i2c_sda [altera_avalon_pio 12.0]
+Progress: Parameterizing module epp_i2c_sda
+Progress: Adding seg7 [SEG7_IF 1.0]
+Progress: Parameterizing module seg7
+Progress: Adding sw [altera_avalon_pio 12.0]
+Progress: Parameterizing module sw
+Progress: Adding i2c_scl [altera_avalon_pio 12.0]
+Progress: Parameterizing module i2c_scl
+Progress: Adding i2c_sda [altera_avalon_pio 12.0]
+Progress: Parameterizing module i2c_sda
+Progress: Adding audio [AUDIO_IF 1.0]
+Progress: Parameterizing module audio
+Progress: Adding altpll [altpll 12.0]
+Progress: Parameterizing module altpll
+Progress: Adding clk_50 [clock_source 12.0]
+Progress: Parameterizing module clk_50
+Progress: Adding onchip_memory2 [altera_avalon_onchip_memory2 12.0]
+Progress: Parameterizing module onchip_memory2
+Progress: Adding sma_in [altera_avalon_pio 12.0]
+Progress: Parameterizing module sma_in
+Progress: Adding sma_out [altera_avalon_pio 12.0]
+Progress: Parameterizing module sma_out
+Progress: Adding timer [altera_avalon_timer 12.0]
+Progress: Parameterizing module timer
+Progress: Adding ledg [altera_avalon_pio 12.0]
+Progress: Parameterizing module ledg
+Progress: Adding ledr [altera_avalon_pio 12.0]
+Progress: Parameterizing module ledr
+Progress: Adding rs232 [altera_avalon_uart 12.0]
+Progress: Parameterizing module rs232
+Progress: Adding ir [altera_avalon_pio 12.0]
+Progress: Parameterizing module ir
+Progress: Adding sdram [altera_avalon_new_sdram_controller 12.0]
+Progress: Parameterizing module sdram
+Progress: Adding sram [TERASIC_SRAM 1.0]
+Progress: Parameterizing module sram
+Progress: Adding tse_mac [triple_speed_ethernet 12.0]
+Progress: Parameterizing module tse_mac
+Progress: Adding sgdma_tx [altera_avalon_sgdma 12.0]
+Progress: Parameterizing module sgdma_tx
+Progress: Adding sgdma_rx [altera_avalon_sgdma 12.0]
+Progress: Parameterizing module sgdma_rx
+Progress: Adding descriptor_memory [altera_avalon_onchip_memory2 12.0]
+Progress: Parameterizing module descriptor_memory
+Progress: Adding ISP1362_IF_0 [ISP1362_IF 1.0]
+Progress: Parameterizing module ISP1362_IF_0
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.0]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: de2_115_WEB_Qsys.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.sd_cmd: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.sd_dat: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.sd_wp_n: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.epp_i2c_sda: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.sw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.i2c_sda: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.onchip_memory2: Memory will be initialized from onchip_memory2.hex
+Info: de2_115_WEB_Qsys.sma_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.ir: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.descriptor_memory: Memory will be initialized from descriptor_memory.hex
+Info: de2_115_WEB_Qsys.sysid: System ID will no longer be automatically assigned.
+Info: de2_115_WEB_Qsys.sysid: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/ --output-directory=C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys.sopcinfo --report-file=html:C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys.html --report-file=qip:C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/de2_115_WEB_Qsys.qip --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys.qsys
+Progress: Loading DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys.qsys
+Progress: Reading input file
+Progress: Adding clock_crossing_io [altera_avalon_mm_clock_crossing_bridge 12.0]
+Progress: Parameterizing module clock_crossing_io
+Progress: Adding cpu [altera_nios2_qsys 12.0]
+Progress: Parameterizing module cpu
+Progress: Adding tri_state_bridge_flash_bridge_0 [altera_tristate_conduit_bridge 12.0]
+Progress: Parameterizing module tri_state_bridge_flash_bridge_0
+Progress: Adding tri_state_flash_bridge_pinSharer_0 [altera_tristate_conduit_pin_sharer 12.0]
+Progress: Parameterizing module tri_state_flash_bridge_pinSharer_0
+Progress: Adding cfi_flash [altera_generic_tristate_controller 12.0]
+Progress: Parameterizing module cfi_flash
+Progress: Adding c0 [altera_clock_bridge 12.0]
+Progress: Parameterizing module c0
+Progress: Adding c2 [altera_clock_bridge 12.0]
+Progress: Parameterizing module c2
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 12.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding key [altera_avalon_pio 12.0]
+Progress: Parameterizing module key
+Progress: Adding lcd [altera_avalon_lcd_16207 12.0]
+Progress: Parameterizing module lcd
+Progress: Adding sd_clk [altera_avalon_pio 12.0]
+Progress: Parameterizing module sd_clk
+Progress: Adding sd_cmd [altera_avalon_pio 12.0]
+Progress: Parameterizing module sd_cmd
+Progress: Adding sd_dat [altera_avalon_pio 12.0]
+Progress: Parameterizing module sd_dat
+Progress: Adding sd_wp_n [altera_avalon_pio 12.0]
+Progress: Parameterizing module sd_wp_n
+Progress: Adding epp_i2c_scl [altera_avalon_pio 12.0]
+Progress: Parameterizing module epp_i2c_scl
+Progress: Adding epp_i2c_sda [altera_avalon_pio 12.0]
+Progress: Parameterizing module epp_i2c_sda
+Progress: Adding seg7 [SEG7_IF 1.0]
+Progress: Parameterizing module seg7
+Progress: Adding sw [altera_avalon_pio 12.0]
+Progress: Parameterizing module sw
+Progress: Adding i2c_scl [altera_avalon_pio 12.0]
+Progress: Parameterizing module i2c_scl
+Progress: Adding i2c_sda [altera_avalon_pio 12.0]
+Progress: Parameterizing module i2c_sda
+Progress: Adding audio [AUDIO_IF 1.0]
+Progress: Parameterizing module audio
+Progress: Adding altpll [altpll 12.0]
+Progress: Parameterizing module altpll
+Progress: Adding clk_50 [clock_source 12.0]
+Progress: Parameterizing module clk_50
+Progress: Adding onchip_memory2 [altera_avalon_onchip_memory2 12.0]
+Progress: Parameterizing module onchip_memory2
+Progress: Adding sma_in [altera_avalon_pio 12.0]
+Progress: Parameterizing module sma_in
+Progress: Adding sma_out [altera_avalon_pio 12.0]
+Progress: Parameterizing module sma_out
+Progress: Adding timer [altera_avalon_timer 12.0]
+Progress: Parameterizing module timer
+Progress: Adding ledg [altera_avalon_pio 12.0]
+Progress: Parameterizing module ledg
+Progress: Adding ledr [altera_avalon_pio 12.0]
+Progress: Parameterizing module ledr
+Progress: Adding rs232 [altera_avalon_uart 12.0]
+Progress: Parameterizing module rs232
+Progress: Adding ir [altera_avalon_pio 12.0]
+Progress: Parameterizing module ir
+Progress: Adding sdram [altera_avalon_new_sdram_controller 12.0]
+Progress: Parameterizing module sdram
+Progress: Adding sram [TERASIC_SRAM 1.0]
+Progress: Parameterizing module sram
+Progress: Adding tse_mac [triple_speed_ethernet 12.0]
+Progress: Parameterizing module tse_mac
+Progress: Adding sgdma_tx [altera_avalon_sgdma 12.0]
+Progress: Parameterizing module sgdma_tx
+Progress: Adding sgdma_rx [altera_avalon_sgdma 12.0]
+Progress: Parameterizing module sgdma_rx
+Progress: Adding descriptor_memory [altera_avalon_onchip_memory2 12.0]
+Progress: Parameterizing module descriptor_memory
+Progress: Adding ISP1362_IF_0 [ISP1362_IF 1.0]
+Progress: Parameterizing module ISP1362_IF_0
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.0]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: de2_115_WEB_Qsys.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.sd_cmd: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.sd_dat: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.sd_wp_n: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.epp_i2c_sda: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.sw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.i2c_sda: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.onchip_memory2: Memory will be initialized from onchip_memory2.hex
+Info: de2_115_WEB_Qsys.sma_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.ir: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_WEB_Qsys.descriptor_memory: Memory will be initialized from descriptor_memory.hex
+Info: de2_115_WEB_Qsys.sysid: System ID will no longer be automatically assigned.
+Info: de2_115_WEB_Qsys.sysid: Time stamp will be automatically updated when this component is generated.
+Info: de2_115_WEB_Qsys: Generating de2_115_WEB_Qsys "de2_115_WEB_Qsys" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 39 modules, 174 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 83 modules, 347 connections
+Info: merlin_domain_transform: After transform: 165 modules, 902 connections
+Info: merlin_router_transform: After transform: 209 modules, 1075 connections
+Info: merlin_traffic_limiter_transform: After transform: 212 modules, 1090 connections
+Info: merlin_burst_transform: After transform: 214 modules, 1098 connections
+Info: reset_adaptation_transform: After transform: 219 modules, 874 connections
+Info: merlin_network_to_switch_transform: After transform: 305 modules, 1054 connections
+Info: merlin_width_transform: After transform: 309 modules, 1066 connections
+Info: Inserting clock-crossing logic between cmd_xbar_demux_001.src8 and cmd_xbar_mux_008.sink0
+Info: Inserting clock-crossing logic between rsp_xbar_demux_008.src0 and rsp_xbar_mux_001.sink8
+Info: com_altera_sopcmodel_transforms_avalon_ClockCrossingTransform: After transform: 311 modules, 1076 connections
+Info: limiter_update_transform: After transform: 311 modules, 1079 connections
+Info: merlin_interrupt_mapper_transform: After transform: 312 modules, 1082 connections
+Info: merlin_interrupt_sync_transform: After transform: 316 modules, 1102 connections
+Warning: system: "No matching role found for rs232:s1:dataavailable (dataavailable)"
+Warning: system: "No matching role found for rs232:s1:readyfordata (readyfordata)"
+Info: clock_crossing_io: "de2_115_WEB_Qsys" instantiated altera_avalon_mm_clock_crossing_bridge "clock_crossing_io"
+Info: cpu: Starting RTL generation for module 'de2_115_WEB_Qsys_cpu'
+Info: cpu:   Generation command is [exec C:/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.0/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.0/quartus/sopc_builder/bin/europa -I C:/altera/12.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.0/quartus/sopc_builder/bin -I C:/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=de2_115_WEB_Qsys_cpu --dir=C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0005_cpu_gen/ --quartus_dir=C:/altera/12.0/quartus --verilog --config=C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0005_cpu_gen//de2_115_WEB_Qsys_cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu: # 2017.06.29 20:57:59 (*) Starting Nios II generation
+Info: cpu: # 2017.06.29 20:57:59 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2017.06.29 20:58:01 (*)   Couldn't query license setup in Quartus directory C:/altera/12.0/quartus
+Info: cpu: # 2017.06.29 20:58:01 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.06.29 20:58:01 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.06.29 20:58:02 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2017.06.29 20:58:02 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.06.29 20:58:02 (*)   Creating all objects for CPU
+Info: cpu: # 2017.06.29 20:58:02 (*)     Testbench
+Info: cpu: # 2017.06.29 20:58:02 (*)     Instruction decoding
+Info: cpu: # 2017.06.29 20:58:02 (*)       Instruction fields
+Info: cpu: # 2017.06.29 20:58:02 (*)       Instruction decodes
+Info: cpu: # 2017.06.29 20:58:03 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2017.06.29 20:58:03 (*)       Instruction controls
+Info: cpu: # 2017.06.29 20:58:03 (*)     Pipeline frontend
+Info: cpu: # 2017.06.29 20:58:03 (*)     Pipeline backend
+Info: cpu: # 2017.06.29 20:58:08 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.06.29 20:58:11 (*)   Creating encrypted RTL
+Info: cpu: # 2017.06.29 20:58:12 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'de2_115_WEB_Qsys_cpu'
+Info: cpu: "de2_115_WEB_Qsys" instantiated altera_nios2_qsys "cpu"
+Info: tri_state_bridge_flash_bridge_0: "de2_115_WEB_Qsys" instantiated altera_tristate_conduit_bridge "tri_state_bridge_flash_bridge_0"
+Info: tri_state_flash_bridge_pinSharer_0: Running transform AvalonTransform
+Info: pipeline_bridge_swap_transform: After transform: 4 modules, 7 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: tri_state_flash_bridge_pinSharer_0: Running transform AvalonTransform took 0.108s
+Info: tri_state_flash_bridge_pinSharer_0: "de2_115_WEB_Qsys" instantiated altera_tristate_conduit_pin_sharer "tri_state_flash_bridge_pinSharer_0"
+Info: cfi_flash: Running transform AvalonTransform
+Info: pipeline_bridge_swap_transform: After transform: 5 modules, 10 connections
+Info: No custom instruction connections, skipping transform 
+Info: cfi_flash: Running transform AvalonTransform took 0.122s
+Info: cfi_flash: "de2_115_WEB_Qsys" instantiated altera_generic_tristate_controller "cfi_flash"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0007_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0007_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0007_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0007_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0007_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 20:58:39 (*) Success: sopc_builder finished.
+Info: jtag_uart: "de2_115_WEB_Qsys" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0008_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0008_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0008_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0008_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0008_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 20:59:03 (*) Success: sopc_builder finished.
+Info: key: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "key"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0009_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0009_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0009_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0009_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0009_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 20:59:26 (*) Success: sopc_builder finished.
+Info: lcd: "de2_115_WEB_Qsys" instantiated altera_avalon_lcd_16207 "lcd"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0010_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0010_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0010_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0010_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0010_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 20:59:51 (*) Success: sopc_builder finished.
+Info: sd_clk: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "sd_clk"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0011_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0011_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0011_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0011_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0011_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:00:16 (*) Success: sopc_builder finished.
+Info: sd_cmd: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "sd_cmd"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0012_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0012_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0012_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0012_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0012_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:00:42 (*) Success: sopc_builder finished.
+Info: sd_dat: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "sd_dat"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0013_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0013_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0013_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0013_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0013_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:01:07 (*) Success: sopc_builder finished.
+Info: sd_wp_n: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "sd_wp_n"
+Info: seg7: "de2_115_WEB_Qsys" instantiated SEG7_IF "seg7"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0015_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0015_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0015_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0015_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0015_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:01:33 (*) Success: sopc_builder finished.
+Info: sw: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "sw"
+Info: audio: "de2_115_WEB_Qsys" instantiated AUDIO_IF "audio"
+Info: altpll: "de2_115_WEB_Qsys" instantiated altpll "altpll"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0018_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0018_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0018_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0018_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0018_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:02:02 (*) Success: sopc_builder finished.
+Info: onchip_memory2: "de2_115_WEB_Qsys" instantiated altera_avalon_onchip_memory2 "onchip_memory2"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0019_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0019_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0019_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0019_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0019_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:02:26 (*) Success: sopc_builder finished.
+Info: sma_in: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "sma_in"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0020_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0020_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0020_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0020_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0020_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:02:50 (*) Success: sopc_builder finished.
+Info: sma_out: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "sma_out"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0021_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0021_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0021_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0021_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0021_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:03:14 (*) Success: sopc_builder finished.
+Info: timer: "de2_115_WEB_Qsys" instantiated altera_avalon_timer "timer"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0022_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0022_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0022_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0022_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0022_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:03:40 (*) Success: sopc_builder finished.
+Info: ledg: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "ledg"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0023_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0023_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0023_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0023_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0023_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:04:05 (*) Success: sopc_builder finished.
+Info: ledr: "de2_115_WEB_Qsys" instantiated altera_avalon_pio "ledr"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0024_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0024_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0024_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0024_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0024_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:04:31 (*) Success: sopc_builder finished.
+Info: rs232: "de2_115_WEB_Qsys" instantiated altera_avalon_uart "rs232"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0025_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0025_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0025_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0025_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0025_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+.
+# 2017.06.29 21:04:56 (*) Running Test Generator Program for de2_115_WEB_Qsys_sdram
+# 2017.06.29 21:04:58 (*) Success: sopc_builder finished.
+Info: sdram: "de2_115_WEB_Qsys" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sram: "de2_115_WEB_Qsys" instantiated TERASIC_SRAM "sram"
+Info: tse_mac: Preparing to generate...
+Info: tse_mac: Variation name : de2_115_WEB_Qsys_tse_mac
+Info: tse_mac: Variation language : Verilog HDL
+Info: tse_mac: Output directory : C:\Users\e0169718\AppData\Local\Temp\alt7346_6094222614507732198.dir\0027_iptb_gen
+Info: tse_mac: Generating HDL... 
+Info: tse_mac: Generating QIP file ...
+Info: tse_mac: Updating user's project directory...
+Info: tse_mac: Generation successful.
+Info: tse_mac: HDL generated
+Info: tse_mac: "de2_115_WEB_Qsys" instantiated triple_speed_ethernet "tse_mac"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0028_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0028_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0028_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0028_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0028_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:05:40 (*) Success: sopc_builder finished.
+Info: sgdma_tx: "de2_115_WEB_Qsys" instantiated altera_avalon_sgdma "sgdma_tx"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0029_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0029_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0029_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0029_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0029_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:06:06 (*) Success: sopc_builder finished.
+Info: sgdma_rx: "de2_115_WEB_Qsys" instantiated altera_avalon_sgdma "sgdma_rx"
+Info: Starting classic module elaboration.
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0030_sopclgen  --no_splash --refresh C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0030_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0030_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"c:/altera/12.0/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0030_sopclgen  --generate C:/Users/e0169718/AppData/Local/Temp/alt7346_6094222614507732198.dir/0030_sopclgen/yysystem.v --quartus_dir="c:/altera/12.0/quartus" --sopc_perl="c:/altera/12.0/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.0/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.0/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.06.29 21:06:31 (*) Success: sopc_builder finished.
+Info: descriptor_memory: "de2_115_WEB_Qsys" instantiated altera_avalon_onchip_memory2 "descriptor_memory"
+Info: ISP1362_IF_0: "de2_115_WEB_Qsys" instantiated ISP1362_IF "ISP1362_IF_0"
+Info: sysid: "de2_115_WEB_Qsys" instantiated altera_avalon_sysid_qsys "sysid"
+Info: cpu_instruction_master_translator: "de2_115_WEB_Qsys" instantiated altera_merlin_master_translator "cpu_instruction_master_translator"
+Info: cpu_jtag_debug_module_translator: "de2_115_WEB_Qsys" instantiated altera_merlin_slave_translator "cpu_jtag_debug_module_translator"
+Info: cpu_instruction_master_translator_avalon_universal_master_0_agent: "de2_115_WEB_Qsys" instantiated altera_merlin_master_agent "cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "de2_115_WEB_Qsys" instantiated altera_merlin_slave_agent "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "de2_115_WEB_Qsys" instantiated altera_avalon_sc_fifo "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "de2_115_WEB_Qsys" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "de2_115_WEB_Qsys" instantiated altera_merlin_router "addr_router_001"
+Info: addr_router_002: "de2_115_WEB_Qsys" instantiated altera_merlin_router "addr_router_002"
+Info: addr_router_006: "de2_115_WEB_Qsys" instantiated altera_merlin_router "addr_router_006"
+Info: id_router: "de2_115_WEB_Qsys" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "de2_115_WEB_Qsys" instantiated altera_merlin_router "id_router_001"
+Info: id_router_003: "de2_115_WEB_Qsys" instantiated altera_merlin_router "id_router_003"
+Info: id_router_004: "de2_115_WEB_Qsys" instantiated altera_merlin_router "id_router_004"
+Info: id_router_005: "de2_115_WEB_Qsys" instantiated altera_merlin_router "id_router_005"
+Info: id_router_013: "de2_115_WEB_Qsys" instantiated altera_merlin_router "id_router_013"
+Info: addr_router_008: "de2_115_WEB_Qsys" instantiated altera_merlin_router "addr_router_008"
+Info: id_router_017: "de2_115_WEB_Qsys" instantiated altera_merlin_router "id_router_017"
+Info: limiter: "de2_115_WEB_Qsys" instantiated altera_merlin_traffic_limiter "limiter"
+Info: burst_adapter: "de2_115_WEB_Qsys" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "de2_115_WEB_Qsys" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "de2_115_WEB_Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "de2_115_WEB_Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_demux_002: "de2_115_WEB_Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_002"
+Info: cmd_xbar_mux: "de2_115_WEB_Qsys" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_003: "de2_115_WEB_Qsys" instantiated altera_merlin_multiplexer "cmd_xbar_mux_003"
+Info: Reusing file C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_mux_013: "de2_115_WEB_Qsys" instantiated altera_merlin_multiplexer "cmd_xbar_mux_013"
+Info: Reusing file C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux: "de2_115_WEB_Qsys" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_003: "de2_115_WEB_Qsys" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_003"
+Info: rsp_xbar_demux_013: "de2_115_WEB_Qsys" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_013"
+Info: rsp_xbar_mux: "de2_115_WEB_Qsys" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "de2_115_WEB_Qsys" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_demux_008: "de2_115_WEB_Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_008"
+Info: rsp_xbar_demux_017: "de2_115_WEB_Qsys" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_017"
+Info: rsp_xbar_mux_008: "de2_115_WEB_Qsys" instantiated altera_merlin_multiplexer "rsp_xbar_mux_008"
+Info: Reusing file C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "de2_115_WEB_Qsys" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "de2_115_WEB_Qsys" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file C:/Users/e0169718/Desktop/DE2_115_WEB_SERVER_MII_ENET0/de2_115_WEB_Qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: irq_mapper: "de2_115_WEB_Qsys" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_synchronizer: "de2_115_WEB_Qsys" instantiated altera_irq_clock_crosser "irq_synchronizer"
+Info: pin_sharer: "tri_state_flash_bridge_pinSharer_0" instantiated altera_tristate_conduit_pin_sharer_core "pin_sharer"
+Info: arbiter: "tri_state_flash_bridge_pinSharer_0" instantiated altera_merlin_std_arbitrator "arbiter"
+Info: tdt: "cfi_flash" instantiated altera_tristate_controller_translator "tdt"
+Info: tda: "cfi_flash" instantiated altera_tristate_controller_aggregator "tda"
+Info: de2_115_WEB_Qsys: Done de2_115_WEB_Qsys" with 74 modules, 547 files, 12759404 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
